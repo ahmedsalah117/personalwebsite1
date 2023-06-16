@@ -9,4 +9,6 @@ Built with React JS, SCSS, and Bootstrap, my website features dynamic typing eff
 
 I also used Formspree service to operate the contact form. 
 
+Please note: The loading screen loads in 1 second on purpose.
+
 Check it out to learn more about my experience and projects.
