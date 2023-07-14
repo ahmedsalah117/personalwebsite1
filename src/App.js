@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Components/Home/Home.jsx";
+import About from "./Components/About/About.jsx";
+import Resume from "./Components/Resume/Resume.jsx";
+// import Portfolio from "./Components/Portfolio/Portfolio.jsx";
+import ContactUS from "./Components/Contact US/ContactUS.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
+import { useState, useEffect, lazy } from "react";
 
+const Portfolio = lazy(() => import("./Components/Portfolio/Portfolio.jsx"));
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+    // setIsLoading(false);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {isLoading ? (
+        <div id="loader-container">
+          <div class="loader"></div>
+        </div>
+      ) : (
+        <>
+          <Home />
+          <About />
+          <Resume />
+          <Portfolio />
+          <ContactUS />
+          <Footer />
+        </>
+      )}
+    </>
   );
 }
 

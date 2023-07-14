@@ -1,0 +1,6 @@
+@mixin fontSizeWeightHeightFamily($size, $weight, $height, $family) {
+  font-size: $size + rem !important;
+  font-weight: $weight !important;
+  line-height: $height + rem !important;
+  font-family: $family;
+}

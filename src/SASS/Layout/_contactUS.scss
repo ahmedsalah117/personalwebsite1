@@ -1,0 +1,120 @@
+@use "./../Helpers/fonts" as *;
+@use "./../Helpers/colors" as *;
+@use "./../Helpers/mixins" as *;
+
+.contactUS {
+  padding: 5rem 0 7rem 0;
+  @include fontSizeWeightHeightFamily(1.6, 600, 2.4, $main-font);
+  // background: linear-gradient(
+  //     to right,
+  //     rgba(245, 245, 245, 0.8),
+  //     rgba(245, 245, 245, 0.8)
+  //   ),
+  //   url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+  // background-image: linear-gradient(
+  //     to right,
+  //     rgba(245, 245, 245, 0.8),
+  //     rgba(245, 245, 245, 0.8)
+  //   ),
+  //   url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  h2 {
+    margin: 5rem 0 3rem 0;
+    color: black;
+    @include fontSizeWeightHeightFamily(2.5, 800, 2.4, $main-font);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 5rem;
+      height: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -2rem;
+      background-color: #facf0f;
+    }
+  }
+  h3 {
+    margin: 0 auto 5rem auto;
+  }
+
+  label {
+    margin-bottom: 1rem;
+    @include fontSizeWeightHeightFamily(1.4, 600, 2.4, $main-font);
+  }
+  input,
+  textarea {
+    margin-bottom: 2rem;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    @include fontSizeWeightHeightFamily(1.6, 400, 2.4, $main-font);
+  }
+  textarea {
+    height: 25rem;
+  }
+
+  &__container {
+    margin-top: 5rem;
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    background-color: $sec-color;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contactUS {
+    padding: 5rem 0 7rem 0;
+    @include fontSizeWeightHeightFamily(1.6, 600, 2.4, $main-font);
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+    h2 {
+      margin: 5rem 0 3rem 0;
+      color: black;
+      @include fontSizeWeightHeightFamily(2.3, 800, 2.4, $main-font);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 5rem;
+        height: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -2rem;
+        background-color: #facf0f;
+      }
+    }
+    h3 {
+      margin: 0 auto 5rem auto;
+    }
+
+    label {
+      margin-bottom: 1rem;
+      @include fontSizeWeightHeightFamily(1.2, 600, 2.4, $main-font);
+    }
+    input,
+    textarea {
+      margin-bottom: 2rem;
+      background-color: #f0f0f0;
+      padding: 1rem;
+      @include fontSizeWeightHeightFamily(1.4, 400, 2.4, $main-font);
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    &__container {
+      margin-top: 5rem;
+      padding: 2rem;
+      box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+      background-color: $sec-color;
+    }
+  }
+}
