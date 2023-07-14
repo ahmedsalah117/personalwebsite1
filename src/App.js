@@ -1,12 +1,11 @@
 import Home from "./Components/Home/Home.jsx";
 import About from "./Components/About/About.jsx";
 import Resume from "./Components/Resume/Resume.jsx";
-// import Portfolio from "./Components/Portfolio/Portfolio.jsx";
+import Portfolio from "./Components/Portfolio/Portfolio.jsx";
 import ContactUS from "./Components/Contact US/ContactUS.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import { useState, useEffect, lazy } from "react";
 
-const Portfolio = lazy(() => import("./Components/Portfolio/Portfolio.jsx"));
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 

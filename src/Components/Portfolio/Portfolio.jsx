@@ -59,7 +59,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={movies}
                     alt="The Movies Website image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
@@ -85,7 +84,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={games}
                     alt="The Game Over App Image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100 ">
                     <a
@@ -111,7 +109,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={forkify}
                     alt="forkify app image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
@@ -137,7 +134,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={mapty}
                     alt="Mapty app image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
@@ -163,7 +159,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={bankist}
                     alt="bankist app image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
@@ -189,7 +184,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={food}
                     alt="food order app image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100 ">
                     <a
@@ -215,7 +209,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={crud}
                     alt="crud system image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
@@ -241,7 +234,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={expenses}
                     alt="Expenses Tracker App"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
@@ -267,7 +259,6 @@ function Portfolio() {
                     className="w-100 h-100 object-fit-cover"
                     src={news}
                     alt="The Movies Website image"
-                    loading="lazy"
                   />
                   <figcaption className="portfolio__fig__caption w-100">
                     <a
