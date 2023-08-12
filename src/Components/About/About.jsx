@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import aboutImg from "./../../assets/profile.jpg";
-import cvFile from "./../../assets/CV - Ahmed Bahnasy - Front End Web Developer _ React JS.pdf";
+import aboutImg from "./../../assets/photo_5933988913247010450_y.jpg";
+import cvFile from "./../../assets/Resume-Ahmed-Bahnasy-Front End Web Developer _ React JS.pdf";
 function About() {
   // function ImgMouseMoveHandler(targetSec) {
   //   targetSec.addEventListener("mousemove", (e) => {

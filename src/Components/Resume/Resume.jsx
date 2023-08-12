@@ -39,6 +39,44 @@ function Resume() {
                 <i className="fa-solid fa-briefcase rounded-circle"></i>
               </div>
               <div className="col-md-10 resume__box rounded-5">
+                <h5>Front End Developer</h5>
+                <h6>Terminal | August 2023 - Present </h6>
+                <p>
+                  • Developing and implementing cutting-edge user interface
+                  components using Html , CSS , JS , React ,and Electron JS.
+                  <br /> • Collaborating with back-end developers and designers
+                  to improve the usability of web & Desktop applications.
+                  <br /> • Writing clean and maintainable code that adheres to
+                  web standards and best practices. <br />• Creating and
+                  maintaining documentation for front-end code and processes
+                </p>
+              </div>
+              <div className="col-md-2  resume__icon-container resume__icon-container--first">
+                <i className="fa-solid fa-briefcase rounded-circle"></i>
+              </div>
+              <div className="col-md-10 resume__box rounded-5">
+                <h5>Front End Web Developer Trainee</h5>
+                <h6>Route IT Training Center | Jul 2022 - Dec 2022</h6>
+                <p>
+                  • Acquired strong foundations in computer science
+                  fundamentals, including Object-Oriented Programming (OOP),
+                  Data Structures, and Algorithms, using C++.
+                  <br />• Developed proficiency in a wide range of web
+                  development technologies, including HTML, CSS, Sass,
+                  Bootstrap, JavaScript, TypeScript, jQuery, React JS, Redux,
+                  Git, and GitHub.
+                  <br /> • Participated in hands-on projects and exercises,
+                  applying learned concepts to real-world scenarios and
+                  enhancing problem-solving skills.
+                  <br /> • Showcased proficiency in React JS by developing
+                  projects that leveraged its component-based architecture and
+                  state management capabilities.
+                </p>
+              </div>
+              <div className="col-md-2  resume__icon-container resume__icon-container--first">
+                <i className="fa-solid fa-briefcase rounded-circle"></i>
+              </div>
+              <div className="col-md-10 resume__box rounded-5">
                 <h5>Business Technical Support & Billing Agent</h5>
                 <h6>Altice USA | Apr 2022 - Dec 2022</h6>
                 <p>
